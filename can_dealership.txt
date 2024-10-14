@@ -1,0 +1,17 @@
+table name: cars
+
+id                          BIGINT                          PRIMARY_KEY AUTO_INCREMENT
+brand                       VARCHAR(255)                    NOT_NULL
+model                       VARCHAR(255)                    NOT_NULL
+engine_capacity             SMALLINT                        NOT_NULL
+number_of_door              TINYINT                         NULL
+color                       VARCHAR(7)                      NULL
+lenght(cm)                  SMALLINT                        NULL
+weight(kg)                  DOUBLE                          NULL
+height(cm)                  TINYINT                         NULL
+materials                   TEXT                            NULL
+trunk_capacity(lt)          SMALLINT                        NOT_NULL
+immatricolation_year        YEAR                            NOT_NULL
+city_of_production          VARCHAR(255)                    NULL
+available                   BOOLEAN                         NOT_NULL
+description                 TEXT                            NULL
